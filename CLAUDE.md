@@ -74,6 +74,8 @@ uv run python -m <module>
 - **No defensive coding**: Do not write validation exceptions, return Optional/None types, or add assert statements. Assume if data was saved, it will be there when loaded.
 - **Use f-strings in logger calls**: Write `logger.info(f"Found {count} items")` not `logger.info("Found {} items", count)`.
 - **Save functions must not return values**: A save/store function writes data and returns None. Never return the data you just saved.
+- If a plan has a TODO checklist, update it when completing a step.
+- **Before committing**: Run `uv run pre-commit run --all-files` after staging changes. Fix any failures before committing.
 
 ## Plugins
 
