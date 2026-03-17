@@ -41,7 +41,7 @@ Red-Green-Refactor cycle (convention-based, not enforced):
 | Skill | Usage | Purpose |
 |-------|-------|---------|
 | `/write-tests` | `/write-tests <requirement>` | Write failing tests (delegates to `tester` agent) |
-| `/implement` | `/implement` | Make failing tests pass (delegates to `implementer` agent) |
+| `/implement` | `/implement <requirement>` | Make failing tests pass (delegates to `implementer` agent) |
 | `/simplify` | `/simplify [file]` | Refactor while keeping tests green (plugin: `code-simplifier`) |
 | `/pre-submit-pr` | `/pre-submit-pr` | Validate before creating PR |
 | `/pr-review-toolkit:review-pr` | `/pr-review-toolkit:review-pr` | Deep code review using specialized agents |
