@@ -7,7 +7,7 @@ Guidance for Claude Code when working with this repository.
 1. **[README.md](README.md)** - Project overview
 2. **[TESTING_STRATEGY](./.claude/docs/TESTING_STRATEGY.md)** - Strategy for test coverage
 3. **[CONTRIBUTING](./.claude/docs/TESTING_STRATEGY.md)** - Design principles for building new features
-4. **[PROJECT_WALKTHROUGH](./.claude/docs/PROJECT_WALKTHROUGH.md)** - A walkthrough of the project structure
+4. **[REPO_WALKTHROUGH](./.claude/docs/REPO_WALKTHROUGH.md)** - A walkthrough of the project structure
 
 ## TDD Workflow
 
