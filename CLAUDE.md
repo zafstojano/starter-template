@@ -18,9 +18,9 @@ Red-Green-Refactor cycle (convention-based, not enforced):
     ↓
 /implement     →  delegates to implementer agent (Green)
     ↓
-/simplify      →  plugin: code-simplifier     (Refactor, optional)
+/simplify      →  plugin: code-simplifier     (Refactor)
     ↓
-/pre-submit-pr →  lint, test, review          (Validate)
+/pre-submit-pr →  lint, test, review          (Validate before submitting a PR)
 ```
 
 ### When to Use TDD
