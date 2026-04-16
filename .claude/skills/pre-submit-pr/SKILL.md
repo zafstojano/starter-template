@@ -27,7 +27,7 @@ Validate changes before submitting a pull request.
 
 3. **Check for debug code**:
    ```bash
-   bash .claude/hooks/check-debug.sh
+   bash .claude/scripts/check-debug.sh
    ```
 
 4. **Summarize PR readiness**
